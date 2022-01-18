@@ -9,6 +9,7 @@ export const getPost = /* GraphQL */ `
       location
       description
       image
+      owner
       createdAt
       updatedAt
       _version
@@ -30,6 +31,7 @@ export const listPosts = /* GraphQL */ `
         location
         description
         image
+        owner
         createdAt
         updatedAt
         _version
@@ -60,6 +62,7 @@ export const syncPosts = /* GraphQL */ `
         location
         description
         image
+        owner
         createdAt
         updatedAt
         _version

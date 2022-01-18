@@ -6,12 +6,20 @@
     "gqlSchemaPath": "/Users/danvilela/Code/Rivian/postagram/amplify/backend/api/postagram/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-01-18T04:41:13.663Z",
+      "keyDescription": "public"
     },
     "conflictResolution": {
       "defaultResolutionStrategy": {
         "type": "AUTOMERGE"
       }
-    }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authpostagram7684e3b6"
+      }
+    ]
   }
 }
